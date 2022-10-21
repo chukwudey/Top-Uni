@@ -1,0 +1,48 @@
+div.hero
+{
+    background-image: url(../image/banner.png);
+    background-size: cover;
+    padding-top:1%;
+    padding-bottom:12%;
+    position: relative;
+}
+
+a.nav-link
+{
+    text-transform: uppercase;
+}
+div.context-bg
+{
+    background-color: transparent;
+}
+
+div.hero::before
+{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.601);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+}
+a.context-button:hover
+{
+    background-color: coral;
+    color: white;
+}
+
+/* .card_3{
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .2s;
+    
+} */
+
+.image-resize{
+    height: 175px;
+    object-fit: cover;
+    object-position: center center;
+}
